@@ -3,8 +3,29 @@
     <head>
         <title>Rock Paper Scissors</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <script src="script.js"></script>
+        <script src="script.js" defer></script>
+        <h1 style="text-align: center";>Rock Paper Scissors</h1>
+        <div class=scorebox>
+            <p>Your Score: <span class="humanscore">0</span></p>
+            <p>Computer's Score: <span class="compscore">0</span></p>
+            <p class="message"> </p>
+            <button onclick="playAgain()">Play Again</button>
+        </div>
+
+        <div class="buttondiv">
+            <div class="rock">
+                <img src="https://www.svgrepo.com/show/29542/fist.svg"/>
+            </div>
+            <div class="paper">
+                <img src="https://www.svgrepo.com/show/31368/palm.svg" alt="rock"/>
+            </div>
+            <div class="scissors">
+                <img src="https://www.svgrepo.com/show/92526/two-fingers.svg"/>
+
+            </div>
+        </div>
     </body>
 </html>
